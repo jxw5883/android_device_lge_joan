@@ -1,5 +1,5 @@
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common DotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
@@ -19,13 +19,15 @@ $(call inherit-product, device/lge/joan/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := joan
-PRODUCT_NAME := lineage_joan
+PRODUCT_NAME := dot_joan
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := joan
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := V30
 
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
+
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="joan" \
