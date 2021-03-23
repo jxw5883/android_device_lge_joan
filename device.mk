@@ -420,10 +420,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.smartselection.bundle1
-
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
