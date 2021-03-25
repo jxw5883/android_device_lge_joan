@@ -29,7 +29,7 @@ persist.debug.wfd.enable=0
 persist.sys.wfd.virtual=0
 
 # Perf
-ro.vendor.qti.sys.fw.bg_apps_limit=48
+ro.vendor.qti.sys.fw.bg_apps_limit=38
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
@@ -47,6 +47,8 @@ debug.sf.early_app_phase_offset_ns=1500000
 debug.sf.early_gl_app_phase_offset_ns=15000000 
 debug.sf.early_gl_phase_offset_ns=3000000
 debug.sf.early_phase_offset_ns=1500000
+debug.sf.enable_gl_backpressure=1
+debug.sf.latch_unsignaled=1
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.protected_contents=true
