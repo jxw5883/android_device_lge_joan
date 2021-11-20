@@ -19,7 +19,7 @@ $(call inherit-product, device/lge/joan/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := joan
-PRODUCT_NAME := lineage_joan
+PRODUCT_NAME := arrow_joan
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := joan
 PRODUCT_MANUFACTURER := LGE
