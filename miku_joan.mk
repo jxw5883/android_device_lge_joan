@@ -37,4 +37,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT="lge/joan_global_com/joan:8.0.0/OPR1.170623.026/181381736b4e9:user/release-keys"
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model ro.product.system.model
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.vendor.product.model ro.product.system.model
