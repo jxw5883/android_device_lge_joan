@@ -5,4 +5,3 @@ allow netmgrd property_socket:sock_file { write };
 
 allow netmgrd init:unix_stream_socket { connectto };
 
-set_prop(netmgrd, vendor_default_prop);

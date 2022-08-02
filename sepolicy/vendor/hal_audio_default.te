@@ -1,13 +1,5 @@
-get_prop(hal_audio_default, {
-    hifi_dac_prop
-    bluetooth_prop
-});
-
-set_prop(hal_audio_default, {
-    hifi_dac_prop
-    wifi_prop
-    vendor_default_prop
-})
+allow hal_audio_default hifi_dac_prop:file { read open getattr };
+allow hal_audio_default hifi_dac_prop:property_service { set };
 
 allow hal_audio_default vendor_data_file:dir { write add_name };
 allow hal_audio_default vendor_data_file:file { read append open getattr create };
