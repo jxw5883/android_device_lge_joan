@@ -36,8 +36,3 @@ allow init {
     hal_fingerprint_default_exec
     same_process_hal_file
 }:file { execute };
-
-allow init default_android_hwservice:hwservice_manager { add find };
-allow init hal_fingerprint_hwservice:hwservice_manager add;
-allow init hal_light_hwservice:hwservice_manager { add find };
-allow init hidl_base_hwservice:hwservice_manager add;

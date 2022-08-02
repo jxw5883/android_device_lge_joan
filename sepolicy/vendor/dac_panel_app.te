@@ -1,3 +1,0 @@
-allow dac_panel_app content_capture_service:service_manager find;
-allow dac_panel_app game_service:service_manager find;
-allow dac_panel_app hint_service:service_manager find;
